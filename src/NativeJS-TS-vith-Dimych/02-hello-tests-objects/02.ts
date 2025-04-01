@@ -15,7 +15,7 @@ type AddressType = {
 }
 
 
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
@@ -51,3 +51,8 @@ const student: StudentType = {
         }
     ]
 }
+
+console.log(student);
+console.log(student.id);
+console.log(student.address.streetTitle);
+console.log(student.technologies[1].title);

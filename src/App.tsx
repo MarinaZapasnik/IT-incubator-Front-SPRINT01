@@ -6,7 +6,7 @@ import { MicroTasks } from './MicroTasks/MicroTasks';
 function App() {
     return (
         <div className="App">
-            <h1>mjbjdbsjdf</h1>
+            
             <Title>Welcome to IT-INCUBATOR</Title>
             <MicroTasks/>
         </div>
